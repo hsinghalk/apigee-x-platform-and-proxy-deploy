@@ -1,6 +1,3 @@
-# apigee-x-platform-and-proxy-deploy
-Apigee X platform and proxy/sharedflow deployment with terraform
-
 ## Apigee X platform deployment
 
 This will help setup Apigee X with the deployment model in the diagram below. A GCP project, external load balancer with public hostname, managed instance groups, VPC and Apigee X instance will be created. 
