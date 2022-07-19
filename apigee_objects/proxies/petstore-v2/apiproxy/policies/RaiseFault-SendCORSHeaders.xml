@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault continueOnError="false" enabled="true" name="RaiseFault-SendCORSHeaders">
+    <DisplayName>RaiseFault-SendCORSHeaders</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers>
+                <Header name="Access-Control-Allow-Origin">*</Header>
+                <Header name="Access-Control-Allow-Headers">*</Header>
+                <!-- This is in seconds -->
+                <Header name="Access-Control-Max-Age">60</Header>
+                <Header name="Access-Control-Allow-Methods">GET, PUT, POST, DELETE</Header>
+                <Header name="X-SF-CORS">true</Header>
+            </Headers>
+            <Payload contentType="application/json"/>
+            <StatusCode>200</StatusCode>
+            <ReasonPhrase>Success</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

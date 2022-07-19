@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AssignMessage-SetCORSHeaderForNonOption">
+    <DisplayName>AssignMessage-SetCORSHeaderForNonOption</DisplayName>
+    <Properties/>
+    <Set>
+        <Headers>
+            <Header name="Access-Control-Allow-Origin">*</Header>
+            <Header name="Access-Control-Allow-Headers">*</Header>
+            <Header name="Access-Control-Max-Age">1800000</Header>
+            <Header name="Access-Control-Allow-Methods">*</Header>
+            <Header name="X-SF-CORS">*</Header>
+        </Headers>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota continueOnError="false" enabled="true" name="Quota-OAuth" type="calendar">
+    <DisplayName>Quota-OAuth</DisplayName>
+    <Allow count="2000000" countRef="apiproduct.developer.quota.limit"/>
+    <Interval ref="apiproduct.developer.quota.interval">1</Interval>
+    <TimeUnit ref="apiproduct.developer.quota.timeunit">minute</TimeUnit>
+    <Identifier ref="apigee.client_id"/>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
+    <StartTime>2022-7-19 12:00:00</StartTime>
+</Quota>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AssignMessage-AccessToken">
+    <DisplayName>AssignMessage-AccessToken</DisplayName>
+    <Set>
+        <Payload contentType="application/json">{
+   "access_token":"{oauthv2accesstoken.OAuthV2-GenerateAccessToken.access_token}",
+   "token_type":"Bearer",
+   "expires_in":{oauthv2accesstoken.OAuthV2-GenerateAccessToken.expires_in},
+   "scope":"{oauthv2accesstoken.OAuthV2-GenerateAccessToken.scope}"
+  
+}</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

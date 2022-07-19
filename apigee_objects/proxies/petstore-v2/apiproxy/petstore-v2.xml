@@ -1,0 +1,29 @@
+<APIProxy revision="23" name="petstore-v2">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1658257008091</CreatedAt>
+    <LastModifiedAt>1658257008091</LastModifiedAt>
+    <BasePaths>/petstore/v2</BasePaths>
+    <Policies>
+        <Policy>AssignMessage-AccessToken</Policy>
+        <Policy>AssignMessage-SetCORSHeaderForNonOption</Policy>
+        <Policy>BasicAuthentication-DecodeCredentials</Policy>
+        <Policy>OAuthV2-GenerateAccessToken</Policy>
+        <Policy>OAuthV2-VerifyAccessToken</Policy>
+        <Policy>RaiseFault-AuthenticationError</Policy>
+        <Policy>RaiseFault-SendCORSHeaders</Policy>
+        <Policy>VerifyAPIKey-ForAPIKey</Policy>
+        <Policy>VerifyAPIKey-ForBasicAuthUser</Policy>
+        <Policy>VerifyAPIKey-ForTokenClientID</Policy>
+        <Policy>SpikeArrest</Policy>
+        <Policy>Quota-APIKey</Policy>
+        <Policy>Quota-OAuth</Policy>
+        <Policy>Quota-APIKeyForBasicAuth</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

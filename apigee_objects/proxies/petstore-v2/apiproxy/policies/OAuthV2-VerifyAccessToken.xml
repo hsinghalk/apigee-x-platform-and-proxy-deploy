@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 continueOnError="false" enabled="true" name="OAuthV2-VerifyAccessToken">
+    <DisplayName>OAuthV2-VerifyAccessToken</DisplayName>
+    <Operation>VerifyAccessToken</Operation>
+    <Scope>write:pets read:pets</Scope>
+</OAuthV2>
