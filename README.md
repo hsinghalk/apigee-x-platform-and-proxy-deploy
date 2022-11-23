@@ -4,6 +4,11 @@ This will help setup Apigee X with the deployment model in the diagram below. A 
 
 ![alt text](https://cloud.google.com/static/apigee/docs/api-platform/images/apigee-arch-diagrams/apigee-arch-a.png)
 
+Click to here to open this repository in Google Cloud Shell, along with a tutorial to guide you through the shell deployment steps:
+
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://ssh.cloud.google.com/cloudshell/open?cloudshell_git_repo=[https://github.com/hsinghalk/apigee-x-platform-and-proxy-deploy](https://github.com/hsinghalk/apigee-x-platform-and-proxy-deploy)&cloudshell_git_branch=master)
+
+
 
 ```sh
 # STEP 1: First edit the env.sh file with your environment variables
